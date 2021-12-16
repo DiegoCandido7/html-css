@@ -13,6 +13,12 @@
             width: 500px;
             border-collapse: collapse;
         }
+        caption{
+            font-size: 1em;
+            background-color: lightgray;
+            padding: 10px;
+            font-weight: bold;
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -24,15 +30,17 @@
         td.num{
             text-align: right;
         }
+
     </style>
 </head>
 <body>
     <h1>tabela grande</h1>
     <table>
+        <caption>População por estado</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -147,7 +155,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total Geral</th>
+                <th scope="row">Total Geral</th>
                 <td class="num"><strong>213.975.027</strong></td>
             </tr>
         </tfoot>
