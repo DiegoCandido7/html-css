@@ -26,14 +26,14 @@
         <caption>Filmes favoritos</caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nome</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>   
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Diego</td>
                 <td>Hulk</td>
                 <td>Rambo</td>
@@ -52,7 +52,7 @@
                 <td>Hulk 2</td>
             </tr>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Beatriz</td>
                 <td>Rambo 3</td>
                 <td>Toy story 3</td>
@@ -71,6 +71,10 @@
                 <td>Naruto</td>
             </tr>
         </tbody>
+        <tfoot>
+            <th colspan="4" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
     </table>
 </body>
 </html>
