@@ -9,9 +9,25 @@
         table{
             border-collapse: collapse;
         }
+        thead{
+            color: white;
+            background-color: darkgray;
+        }
         td,th{
             border: 1px solid black;
             width: 100px;
+        }
+        td#nota{
+            text-align: center;
+        }
+        td#n{
+            text-align: center;
+            background-color: darkgray;
+        }
+        th#media{
+            color: white;
+            background-color: darkgray;
+            text-align: left;
         }
     </style>
 </head>
@@ -34,50 +50,50 @@
                 <th rowspan="5">Exatas</th>
                  <tr>
                     <td>Matematica</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
                 <tr>
                     <td>Fisica</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
                 <tr>
                     <td>Quimica</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
                 <tr>
                     <td>Biologia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
             </tr>
-            <th colspan="4">Media de Exatas</th>
-            <td>0</td>
+                <th id="media" colspan="4">Media de Exatas</th>
+                <td id="n">0</td>
             <tr>
                 <th rowspan="3">Humanas</th>
                 <tr>
                     <td>Historia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
                 <tr>
                     <td>Geografia</td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
+                    <td id="nota">0</td>
                 </tr>
             </tr>
         </tbody>
         <tfoot>
-            <th colspan="4">Media de Humanas</th>
-            <td>0</td>
+            <th id="media" colspan="4">Media de Humanas</th>
+            <td id="n">0</td>
         </tfoot>
     </table>
 </body>
