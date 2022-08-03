@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* estilo para impressora */
+
+*{
+    font-family: serif;
+    padding: 0px;
+    margin: 0px;
+}
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'esse texto foi impresso do site cursoemvideo.com';
+}
