@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* configurações paisagem*/
+
+body{
+    background-image: url('../imagens/portrait.jpg');
+}
